@@ -1,7 +1,7 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Capabilities {
 
