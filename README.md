@@ -1,5 +1,7 @@
 # JNC
 
+**NOTE: This is a fork of https://github.com/tail-f-systems/JNC**
+
 Java NETCONF Client.
 
 ## Overview
