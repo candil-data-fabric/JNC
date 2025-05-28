@@ -7,9 +7,9 @@ import java.io.Serializable;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -86,7 +86,7 @@ public class Element implements Cloneable, Serializable {
      * default.
      */
     public static final PrefixMap defaultPrefixes = new PrefixMap(new Prefix[] {
-            new Prefix("nc", NETCONF_NAMESPACE),
+            new Prefix("", NETCONF_NAMESPACE),
             new Prefix("pl", Capabilities.NS_PARTIAL_LOCK),
             new Prefix("ncn", Capabilities.NS_NOTIFICATION) });
 
