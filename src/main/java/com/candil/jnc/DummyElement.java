@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 /**
  * Used to instantiate YangElement in sync-methods and in tests

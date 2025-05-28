@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 /**
  * This is a default IO subscriber that can be used for tracing, auditing, and

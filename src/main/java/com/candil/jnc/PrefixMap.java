@@ -1,11 +1,11 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 import java.util.ArrayList;
 
 /**
  * This class implements a list of prefix mappings, which provides mappings
  * from namespaces to prefixes.
- * 
+ *
  **/
 public class PrefixMap extends ArrayList<Prefix> {
 
@@ -36,7 +36,7 @@ public class PrefixMap extends ArrayList<Prefix> {
 
     /**
      * Nondestructively merges a prefix map with this object.
-     * 
+     *
      * @param prefixes The prefix map to merge with.
      */
     public void merge(PrefixMap prefixes) {
@@ -47,7 +47,7 @@ public class PrefixMap extends ArrayList<Prefix> {
 
     /**
      * Non-destructively merges a prefix in the prefix map.
-     * 
+     *
      * @param prefix the prefix to add if not already present.
      */
     public void merge(Prefix prefix) {
@@ -60,7 +60,7 @@ public class PrefixMap extends ArrayList<Prefix> {
     /**
      * Stores the prefixes in the prefix map. Replaces those that already
      * exists, and add the new ones that doesn't exist.
-     * 
+     *
      * @param prefixes Prefix mappings
      */
     public void set(PrefixMap prefixes) {
@@ -72,7 +72,7 @@ public class PrefixMap extends ArrayList<Prefix> {
 
     /**
      * Stores a prefix in the prefix map. Replace any old occurrence.
-     * 
+     *
      * @param prefix Prefix mapping to be set
      */
     public void set(Prefix prefix) {
@@ -90,7 +90,7 @@ public class PrefixMap extends ArrayList<Prefix> {
 
     /**
      * Removes a prefix mapping.
-     * 
+     *
      * @param prefix Name of prefix mapping to be removed.
      */
     public void remove(String prefix) {
@@ -102,7 +102,7 @@ public class PrefixMap extends ArrayList<Prefix> {
 
     /**
      * Gets the prefix at specified index.
-     * 
+     *
      * @param i Index of prefix mapping to get.
      * @return Prefix mapping
      */
@@ -112,7 +112,7 @@ public class PrefixMap extends ArrayList<Prefix> {
 
     /**
      * Returns the index of the prefix name in the prefix map.
-     * 
+     *
      * @param name The prefix name
      * @return Index of prefix mapping with specified prefix name
      */
@@ -128,7 +128,7 @@ public class PrefixMap extends ArrayList<Prefix> {
 
     /**
      * Lookups prefix name in the prefix map. Return the Prefix object.
-     * 
+     *
      * @param name The prefix name
      * @return Prefix mapping
      */
@@ -145,7 +145,7 @@ public class PrefixMap extends ArrayList<Prefix> {
 
     /**
      * Lookups namespace and returns prefix for it.
-     * 
+     *
      * @param ns The namespace to lookup in this prefix
      */
     public String nsToPrefix(String ns) {

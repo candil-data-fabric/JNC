@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 /**
  * This class represents leaves in data model aware Element trees.

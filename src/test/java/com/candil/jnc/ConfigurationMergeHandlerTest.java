@@ -1,10 +1,10 @@
-package com.tailf.jnc;
-
-import org.junit.Test;
+package com.candil.jnc;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+
+import org.junit.Test;
 
 public class ConfigurationMergeHandlerTest {
     protected static final String NAMESPACE = "urn:ietf:params:xml:ns:yang:ietf-system";

@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 /**
  * This is the class of exceptions that are thrown from the classes generated
@@ -32,7 +32,7 @@ public class YangException extends JNCException {
 
     /**
      * Asserts that fail is false, throws BAD_VALUE with o otherwise.
-     * 
+     *
      * @param fail Determines if a Bad Value YangException is thrown
      * @param o Object which toString-method will be appended to exception
      * @throws YangException if and only if fail is true

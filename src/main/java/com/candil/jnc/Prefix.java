@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 /**
  * This class represents a prefix mapping of a prefix string into a namespace.

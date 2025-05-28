@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 /**
  * The Tagpath class is used to represent the name of individual schema nodes.

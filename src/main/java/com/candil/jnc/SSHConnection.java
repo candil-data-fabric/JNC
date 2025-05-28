@@ -1,23 +1,23 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 import java.io.File;
 import java.io.IOException;
-
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketException;
+
 import javax.net.SocketFactory;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import net.schmizz.sshj.SSHClient;
-import net.schmizz.sshj.userauth.UserAuthException;
 import net.schmizz.sshj.transport.verification.HostKeyVerifier;
-import net.schmizz.sshj.transport.verification.PromiscuousVerifier;
 import net.schmizz.sshj.transport.verification.OpenSSHKnownHosts;
+import net.schmizz.sshj.transport.verification.PromiscuousVerifier;
+import net.schmizz.sshj.userauth.UserAuthException;
 
 /**
  * A SSH NETCONF connection class. Can be used whenever {@link NetconfSession}

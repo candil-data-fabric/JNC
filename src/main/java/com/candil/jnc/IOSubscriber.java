@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;

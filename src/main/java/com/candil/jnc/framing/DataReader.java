@@ -1,4 +1,4 @@
-package com.tailf.jnc.framing;
+package com.candil.jnc.framing;
 
 import java.io.IOException;
 

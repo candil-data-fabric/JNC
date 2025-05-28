@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 import java.io.IOException;
 import java.net.URL;
@@ -244,8 +244,8 @@ public class SchemaParser {
     }
 
     /**
-     * Scans the classpath for the XML schema file and populates the hashtable with 
-     * SchemaNode objects. Class is passed in so that in the case of multiple {@link ClassLoader}s 
+     * Scans the classpath for the XML schema file and populates the hashtable with
+     * SchemaNode objects. Class is passed in so that in the case of multiple {@link ClassLoader}s
      * the correct one can be used to locate the schema.
      *
      * @param filename

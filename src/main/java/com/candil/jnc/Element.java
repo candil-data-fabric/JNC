@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 import java.io.DataOutputStream;
 import java.io.IOException;

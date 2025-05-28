@@ -1,8 +1,8 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 /**
  * Implements the built-in YANG data type "uint8".
- * 
+ *
  * @author emil@tail-f.com
  */
 public class YangUInt8 extends YangInt16 {
@@ -11,7 +11,7 @@ public class YangUInt8 extends YangInt16 {
 
     /**
      * Creates a YangUInt8 object from a String.
-     * 
+     *
      * @param s The string.
      * @throws YangException If value could not be parsed from s or if the
      *             parsed value is negative or larger than 0xff.
@@ -25,7 +25,7 @@ public class YangUInt8 extends YangInt16 {
     /**
      * Creates a YangUInt8 object from a Number. This may involve rounding or
      * truncation.
-     * 
+     *
      * @param value The initial value of the new YangUInt8 object.
      * @throws YangException If value is negative or larger than 0xff.
      */
@@ -37,7 +37,7 @@ public class YangUInt8 extends YangInt16 {
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see com.tailf.jnc.YangBaseType#cloneShallow()
      */
     @Override

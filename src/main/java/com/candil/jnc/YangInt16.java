@@ -1,8 +1,8 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 /**
  * Implements the built-in YANG data type "int16".
- * 
+ *
  * @author emil@tail-f.com
  */
 public class YangInt16 extends YangBaseInt<Short> {
@@ -11,7 +11,7 @@ public class YangInt16 extends YangBaseInt<Short> {
 
     /**
      * Creates a YangInt16 object from a String.
-     * 
+     *
      * @param s The string.
      * @throws YangException If value could not be parsed from s.
      */
@@ -23,7 +23,7 @@ public class YangInt16 extends YangBaseInt<Short> {
     /**
      * Creates a YangInt16 object from a Number. This may involve rounding or
      * truncation.
-     * 
+     *
      * @param value The initial value of the new YangInt16 object.
      * @throws YangException If value does not fit in 16 bits.
      */
@@ -37,7 +37,7 @@ public class YangInt16 extends YangBaseInt<Short> {
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see com.tailf.jnc.yang.YangInt#parse(java.lang.String)
      */
     @Override
@@ -47,7 +47,7 @@ public class YangInt16 extends YangBaseInt<Short> {
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see com.tailf.jnc.YangBaseType#cloneShallow()
      */
     @Override

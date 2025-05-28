@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -18,7 +18,7 @@ public final class SchemaTree {
     /**
      * If no hashmap exists for namespace, it is created. Used by generated
      * code to populate new hashmaps for YANG modules.
-     * 
+     *
      * @param namespace The namespace of the module as a String.
      * @return The HashMap associated with namespace.
      */
@@ -49,7 +49,7 @@ public final class SchemaTree {
 
     /**
      * Searches for a SchemaNode given a namespace and a Tagpath.
-     * 
+     *
      * @param namespace The namespace of the module.
      * @param tp The TagPath of the node to search for.
      * @return The SchemaNode with Tagpath tp in module with specified

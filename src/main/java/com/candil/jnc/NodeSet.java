@@ -1,10 +1,10 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 import java.util.ArrayList;
 
 /**
  * A set of {@link Element} nodes.
- * 
+ *
  */
 public class NodeSet extends ArrayList<Element> {
 
@@ -35,7 +35,7 @@ public class NodeSet extends ArrayList<Element> {
     /**
      * 'Get' using path expression on nodes within the set. returning new
      * NodeSet
-     * 
+     *
      * @param pathStr Path string to find nodes within the nodes
      */
     public NodeSet get(String pathStr) throws JNCException {
@@ -52,7 +52,7 @@ public class NodeSet extends ArrayList<Element> {
     /**
      * 'Get' using path expression on nodes within the set. returning the first
      * Element that matches
-     * 
+     *
      * @param pathStr Path string to find an element within the nodes
      */
     public Element getFirst(String pathStr) throws JNCException {
@@ -83,7 +83,7 @@ public class NodeSet extends ArrayList<Element> {
     /**
      * Checks if an element is a member of the NodeSet. Elements are compared
      * with the {@link Element#equals(Object) Element.equals} method.
-     * 
+     *
      * @param x Element to check for
      */
     public boolean isMember(Element x) {
@@ -93,7 +93,7 @@ public class NodeSet extends ArrayList<Element> {
     /**
      * Searches for an element in this NodeSet. Elements are compared
      * with the {@link Element#equals(Object) Element.equals} method.
-     * 
+     *
      * @param x Element to find
      * @return the found member or null
      */
@@ -109,10 +109,10 @@ public class NodeSet extends ArrayList<Element> {
     /**
      * Removes a member element from the NodeSet. Members are compared with
      * {@link Element#equals(Object) Element.equals} method.
-     * 
+     *
      * @param x Removes an element equals to element x.
      * @return <code>true</code> if member was removed. <code>false</code> if not found.
-     * 
+     *
      */
     public boolean removeMember(Element x) {
         for (int i = 0; i < size(); i++) {
@@ -127,7 +127,7 @@ public class NodeSet extends ArrayList<Element> {
 
     /**
      * Formats the NodeSet in XML format.
-     * 
+     *
      * @return The sub-tree represented as an XML string
      */
     public String toXMLString() {
@@ -140,7 +140,7 @@ public class NodeSet extends ArrayList<Element> {
 
     /**
      * Encode to XML and send the sequence of elements to the provided stream.
-     * 
+     *
      * @param out NETCONF transport interface to use
      * @param c NETCONF Capabilities supported
      * @throws JNCException if the

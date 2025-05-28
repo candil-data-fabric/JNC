@@ -1,8 +1,8 @@
-package com.tailf.jnc.framing;
+package com.candil.jnc.framing;
 
-import java.lang.reflect.Constructor;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.lang.reflect.Constructor;
 
 /**
  * Enum defining the framing types

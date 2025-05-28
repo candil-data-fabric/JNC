@@ -1,11 +1,11 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 import java.math.BigDecimal;
 
 /**
  * Extended by implementations of the Integer, decimal64 and binary built-in
  * YANG data types.
- * 
+ *
  * @author emil@tail-f.com
  */
 abstract class YangBaseInt<T extends Number> extends YangBaseType<T> {

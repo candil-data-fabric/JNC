@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 /**
  * Class for 'rpc-error' elements returned in NETCONF 'rpc-reply' messages.
@@ -13,7 +13,7 @@ package com.tailf.jnc;
  * <li> {@link #errorMessage}
  * <li> {@link #errorInfo}
  * </ul>
- * 
+ *
  */
 public class RpcError {
 

@@ -1,10 +1,10 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 import java.math.BigDecimal;
 
 /**
  * Represents a built-in YANG data type.
- * 
+ *
  * @author emil@tail-f.com
  */
 abstract class YangBaseType<T> implements Cloneable, YangType<T> {
@@ -13,7 +13,7 @@ abstract class YangBaseType<T> implements Cloneable, YangType<T> {
 
     /**
      * The value of this object, of which this class is a wrapper for.
-     * 
+     *
      * @serial
      */
     protected T value;
@@ -28,7 +28,7 @@ abstract class YangBaseType<T> implements Cloneable, YangType<T> {
 
     /**
      * Creates a YangType object from a String.
-     * 
+     *
      * @param s The string.
      * @throws YangException If an invariant was broken during initialization,
      *             or if value could not be parsed from s.
@@ -39,7 +39,7 @@ abstract class YangBaseType<T> implements Cloneable, YangType<T> {
 
     /**
      * Creates a YangType object from a value of type T.
-     * 
+     *
      * @param value The initial value of the new YangType object.
      * @throws YangException If an invariant was broken during initialization.
      */
@@ -49,7 +49,7 @@ abstract class YangBaseType<T> implements Cloneable, YangType<T> {
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see com.tailf.jnc.YangType#setValue(java.lang.String)
      */
     @Override
@@ -60,7 +60,7 @@ abstract class YangBaseType<T> implements Cloneable, YangType<T> {
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see com.tailf.jnc.YangType#setValue(T)
      */
     @Override
@@ -74,7 +74,7 @@ abstract class YangBaseType<T> implements Cloneable, YangType<T> {
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see com.tailf.jnc.YangType#getValue()
      */
     @Override
@@ -84,7 +84,7 @@ abstract class YangBaseType<T> implements Cloneable, YangType<T> {
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see com.tailf.jnc.YangType#check()
      */
     @Override
@@ -105,7 +105,7 @@ abstract class YangBaseType<T> implements Cloneable, YangType<T> {
      * Returns a value of type T given a String.
      * <p>
      * Note: This method is non-static since T is a non-static type.
-     * 
+     *
      * @param s A string representation of a value of type T.
      * @return A T value parsed from s (not this.value!).
      * @throws YangException If s does not contain a parsable T.
@@ -114,7 +114,7 @@ abstract class YangBaseType<T> implements Cloneable, YangType<T> {
 
     /**
      * Compares this object with another object for equality.
-     * 
+     *
      * @param obj The object to compare with.
      * @return true if obj can be cast to a comparable type and the value of
      *         this object is equal to the value of obj; false otherwise.
@@ -141,7 +141,7 @@ abstract class YangBaseType<T> implements Cloneable, YangType<T> {
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see java.lang.Object#hashCode()
      */
     @Override
@@ -154,14 +154,14 @@ abstract class YangBaseType<T> implements Cloneable, YangType<T> {
 
     /**
      * Clones this object without cloning its value.
-     * 
+     *
      * @return A shallow clone of this object.
      */
     protected abstract YangBaseType<T> cloneShallow() throws YangException;
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see java.lang.Object#clone()
      */
     @SuppressWarnings("unchecked")

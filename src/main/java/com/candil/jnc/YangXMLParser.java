@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 import org.xml.sax.InputSource;
 
@@ -39,7 +39,7 @@ public class YangXMLParser extends XMLParser {
     /**
      * Parses an XML string returning a configuration tree from it,
      * instantiating an ElementHandler to use as content handler.
-     * 
+     *
      * @param is Input source (byte stream) where the XML text is read from
      */
     @Override

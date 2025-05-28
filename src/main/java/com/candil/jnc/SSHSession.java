@@ -1,22 +1,22 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
-import com.tailf.jnc.framing.BaseReader;
-import com.tailf.jnc.framing.DataReader;
-import com.tailf.jnc.framing.Framer;
-import com.tailf.jnc.framing.Framing;
-
-import java.io.InputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
-import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.candil.jnc.framing.BaseReader;
+import com.candil.jnc.framing.DataReader;
+import com.candil.jnc.framing.Framer;
+import com.candil.jnc.framing.Framing;
 
 import net.schmizz.sshj.connection.channel.direct.Session;
 

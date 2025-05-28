@@ -1,9 +1,9 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 import java.io.IOException;
 import java.util.List;
 
-import com.tailf.jnc.framing.Framing;
+import com.candil.jnc.framing.Framing;
 
 /**
  * A NETCONF session class. It makes it possible to connect to a NETCONF agent

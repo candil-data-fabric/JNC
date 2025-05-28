@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;

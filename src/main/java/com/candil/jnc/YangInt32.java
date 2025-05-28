@@ -1,8 +1,8 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 /**
  * Implements the built-in YANG data type "int32".
- * 
+ *
  * @author emil@tail-f.com
  */
 public class YangInt32 extends YangBaseInt<Integer> {
@@ -11,7 +11,7 @@ public class YangInt32 extends YangBaseInt<Integer> {
 
     /**
      * Creates a YangInt32 object from a String.
-     * 
+     *
      * @param s The string.
      * @throws YangException If value could not be parsed from s.
      */
@@ -23,7 +23,7 @@ public class YangInt32 extends YangBaseInt<Integer> {
     /**
      * Creates a YangInt32 object from a Number. This may involve rounding or
      * truncation.
-     * 
+     *
      * @param value The initial value of the new YangInt32 object.
      * @throws YangException If value does not fit in 8 bits.
      */
@@ -37,7 +37,7 @@ public class YangInt32 extends YangBaseInt<Integer> {
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see com.tailf.jnc.yang.YangInt#parse(java.lang.String)
      */
     @Override
@@ -47,7 +47,7 @@ public class YangInt32 extends YangBaseInt<Integer> {
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see com.tailf.jnc.YangBaseType#cloneShallow()
      */
     @Override

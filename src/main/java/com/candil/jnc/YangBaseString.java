@@ -1,11 +1,11 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 /**
  * A String wrapper extended by built in String based types.
  * <p>
  * White space collapse and replace methods, regexp pattern matchers, and
  * length assertion methods are provided.
- * 
+ *
  * @author emil@tail-f.com
  */
 public class YangBaseString extends YangBaseType<String> {
@@ -14,7 +14,7 @@ public class YangBaseString extends YangBaseType<String> {
 
     /**
      * Creates a YangBaseString object from a java.lang.String.
-     * 
+     *
      * @param value The Java String.
      * @throws YangException If an invariant was broken during assignment.
      */
@@ -24,7 +24,7 @@ public class YangBaseString extends YangBaseType<String> {
 
     /**
      * Sets the value of this object using a java.lang.String.
-     * 
+     *
      * @param value The Java String.
      * @throws YangException If an invariant was broken during assignment.
      */
@@ -39,7 +39,7 @@ public class YangBaseString extends YangBaseType<String> {
     /**
      * Identity method provided because this class extends the YangBaseType
      * class.
-     * 
+     *
      * @param s A string.
      * @return s.
      */
@@ -50,7 +50,7 @@ public class YangBaseString extends YangBaseType<String> {
 
     /**
      * Compares type of obj with this object to see if they can be equal.
-     * 
+     *
      * @param obj Object to compare type with.
      * @return true if obj is an instance of YangBaseString or
      *         java.lang.String; false otherwise.
@@ -69,7 +69,7 @@ public class YangBaseString extends YangBaseType<String> {
 
     /**
      * Checks that a regular expression matches the value of this object.
-     * 
+     *
      * @param regex The regular expression.
      * @throws YangException If regexp has a syntax error or does not match.
      */
@@ -79,7 +79,7 @@ public class YangBaseString extends YangBaseType<String> {
 
     /**
      * Checks that a set of regular expressions match the value of this object.
-     * 
+     *
      * @param regexes The regular expressions.
      * @throws YangException If any regexp in regexes has a syntax error or
      *             does not match.
@@ -108,7 +108,7 @@ public class YangBaseString extends YangBaseType<String> {
 
     /**
      * Checks that the value of this object has the specified length.
-     * 
+     *
      * @param length The required length of this value
      * @throws YangException If the comparison does not evaluate to true.
      */
@@ -118,7 +118,7 @@ public class YangBaseString extends YangBaseType<String> {
 
     /**
      * Checks that the value of this object has at least the specified length.
-     * 
+     *
      * @param length The lower limit of the length of this value
      * @throws YangException if value is shorter than length.
      */
@@ -128,7 +128,7 @@ public class YangBaseString extends YangBaseType<String> {
 
     /**
      * Checks that the value of this object has at most the specified length.
-     * 
+     *
      * @param length The upper limit of the length of this value.
      * @throws YangException if value is longer than length.
      */

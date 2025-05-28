@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 public interface YangType<T> extends Cloneable, java.io.Serializable {
 

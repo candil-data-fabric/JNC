@@ -1,9 +1,9 @@
-package com.tailf.jnc;
-
-import com.tailf.jnc.framing.Framing;
+package com.candil.jnc;
 
 import java.io.IOException;
 import java.util.Collection;
+
+import com.candil.jnc.framing.Framing;
 
 /**
  * A NETCONF transport interface. This interface can be used to write custom
@@ -63,7 +63,7 @@ public interface Transport {
      */
     void close();
 
-    /** 
+    /**
      * Sets the framing for the session for Netconf 1.1 support
      */
     void setFraming(Framing f);

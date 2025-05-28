@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 /**
  * The SchemaNode class is used to represent individual nodes in the schema
@@ -28,7 +28,7 @@ public class SchemaNode {
 //    public static final int CS_NODE_IS_RESULT = (1 << 5);
 //    public static final int CS_NODE_IS_NOTIF = (1 << 6);
 //    public static final int CS_NODE_IS_CASE = (1 << 7);
-//    
+//
 //    public static final int C_BUF = 5; // (xs:string ...)
 //    public static final int C_INT8 = 6; // (xs:byte)
 //    public static final int C_INT16 = 7; // (xs:short)
@@ -74,7 +74,7 @@ public class SchemaNode {
 
     /**
      * Finds the schema class for a data element
-     * 
+     *
      * @param e The data element
      * @return the schema node with same namespace and tagpath as e
      */

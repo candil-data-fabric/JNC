@@ -1,8 +1,8 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 /**
  * Implements the built-in YANG data type "string".
- * 
+ *
  * @author emil@tail-f.com
  */
 public class YangString extends YangBaseString {
@@ -11,7 +11,7 @@ public class YangString extends YangBaseString {
 
     /**
      * Creates a YangString object from a java.lang.String.
-     * 
+     *
      * @param value The Java String.
      * @throws YangException If an invariant was broken during assignment.
      */
@@ -21,7 +21,7 @@ public class YangString extends YangBaseString {
 
     /**
      * Compares type of obj with this object to see if they can be equal.
-     * 
+     *
      * @param obj Object to compare type with.
      * @return true if obj is an instance of YangString; false otherwise.
      */

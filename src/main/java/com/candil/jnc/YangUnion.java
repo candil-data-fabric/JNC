@@ -1,4 +1,4 @@
-package com.tailf.jnc;
+package com.candil.jnc;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

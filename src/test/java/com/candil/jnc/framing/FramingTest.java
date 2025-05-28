@@ -1,9 +1,11 @@
-package com.tailf.jnc.framing;
+package com.candil.jnc.framing;
+
+import static org.junit.Assert.assertEquals;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
@@ -15,7 +17,6 @@ import java.util.concurrent.TimeUnit;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.Timeout;
-import static org.junit.Assert.assertEquals;
 
 public class FramingTest {
     private final static String ENDMARK = "]]>]]>";
