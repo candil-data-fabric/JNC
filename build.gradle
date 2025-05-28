@@ -82,3 +82,7 @@ publishing { // use 'gradle --info -PJNC_GITLAB_TOKEN=<token> publish'
 
     }
 }
+
+tasks.named('javadoc') {
+    enabled = false
+}
